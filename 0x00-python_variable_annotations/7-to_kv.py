@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from typing import Union, Tuple
 """function that takes a string k and an int OR float v as arguments
 returns a tuple"""

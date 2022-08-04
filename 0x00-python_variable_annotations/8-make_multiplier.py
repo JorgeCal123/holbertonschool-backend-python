@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from typing import Callable
 """takes a float multiplier as argument
 returns a function that multiplies a float by multiplier"""
