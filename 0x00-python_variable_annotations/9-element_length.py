@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-from typing import Iterable, Tuple, Sequence, List
 """function’s parameters
 return values with the appropriate types"""
+from typing import Iterable, Tuple, Sequence, List
 
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
