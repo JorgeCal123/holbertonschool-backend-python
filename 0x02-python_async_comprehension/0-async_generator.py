@@ -2,9 +2,10 @@
 """The coroutine will loop 10 times, each time asynchronously wait 1 second"""
 import asyncio
 import random
+from typing import Generator
 
 
-async def async_generator():
+async def async_generator() -> Generator:
     """return random number between 0 and 10"""
     i = 0
     while (i < 10):
