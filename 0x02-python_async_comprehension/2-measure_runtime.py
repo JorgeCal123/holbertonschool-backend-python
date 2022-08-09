@@ -17,3 +17,4 @@ async def measure_runtime() -> float:
                          async_comprehension(), async_comprehension())
     fin = time.time()
     return fin - inicio
+    
